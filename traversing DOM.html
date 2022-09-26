@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("a.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: transparent;
+
+        }
+
+
+        .header {
+            margin-left: 35%;
+            color: wheat;
+
+        }
+
+        .small-header {
+            margin-left: 40%;
+            color: wheat;
+            font-size: large;
+        }
+
+        .nav {
+            list-style: none;
+            background: rgb(183, 189, 215);
+            margin-top: 10px;
+            padding: 0px;
+            border: 2px solid black;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .nav li {
+
+            list-style: none;
+            float: left;
+            padding-left: 30px;
+            padding-bottom: 7px;
+            display: block;
+            color: rgb(66, 61, 54);
+            text-align: center;
+            font-size: 18px;
+
+
+
+        }
+
+
+
+        .logo img {
+            float: left;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            padding-left: 10px;
+        }
+
+        .my-pic {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            display: flex;
+            float: right;
+            margin-right: 200px;
+
+        }
+
+        .about-me {
+            border: 5 px solid red;
+
+
+        }
+
+        #about-meh {
+            color: wheat;
+            margin-left: 200px;
+            margin-top: 150px;
+            padding-top: 100px;
+
+
+
+        }
+
+        .form-header {
+            color: rgb(215, 210, 199);
+            margin-left: 40%;
+            font-size: 30px;
+
+        }
+
+        .form {
+            border: 3px solid rgb(131, 99, 99);
+            width: 50%;
+            height: 50%;
+            margin-left: 26%;
+            border-radius: 10px;
+            margin-top: -68px;
+        }
+
+        .form-attibute {
+            padding-bottom: 5px;
+            text-align: center;
+            padding-top: 10px;
+            color: beige;
+            font-size: 25px;
+
+        }
+
+        .form-attibute input {
+            background-color: transparent;
+            width: 50%;
+            height: 20px;
+            box-shadow: rgb(130, 102, 50);
+            border: 3px solid rgb(203, 153, 153);
+            border-radius: 8px;
+            color: wheat;
+            font-weight: bold;
+            padding-left: 25px;
+            font-size: 20px;
+
+
+        }
+
+        
+ #btn{
+    margin-left: 25%;
+    padding-left:30px ;
+    width: 50%;
+    height: 30px;
+    color: antiquewhite;
+    background-color: green;
+    font-size: large;
+    font-weight: bold;
+    border-radius :8px ;
+ }
+        .my-img {
+            width: 110%;
+            height: 600px;
+            display: flex;
+
+            border-radius: 10px;
+            padding-left: 0;
+            border-radius: 15px;
+
+
+
+        }
+
+        .small-container {
+            margin-bottom: 150px;
+
+            margin-top: 15%;
+            display: flex;
+            margin-left: -180px;
+            width: 130%;
+            border-radius: 30px;
+
+
+
+        }
+
+        .img-fit {
+            width: 30%;
+        }
+
+        .png {
+            width: 40px;
+            height: 20px;
+            padding-top: 3px;
+            border-radius: 50%;
+
+        }
+
+        #png-d {
+            color: wheat;
+            text-decoration: none;
+        }
+      
+         #clock{
+            background-color: transparent;
+            color: wheat;
+            margin-left: 86%;
+            margin-top: 5%;
+            font-size: 30px;
+            box-shadow: 3px;
+         }
+         #table{
+            color: wheat;
+            border: 3px solid wheat;
+         }
+
+    </style>
+
+</head>
+
+<body  onload="clockupdate()">
+    <div class="container">
+
+        <div id="small-cont">
+
+            <div class="nav">
+                <div class="logo">
+                    <a href=""><img src="images\atiq.jpg.jpeg" alt=""></a>
+                </div>
+                <ul>
+
+                    <a href="">
+                        <li>HOME</li>
+                    </a>
+                    <a href="#gallery">
+                        <li>gallery</li>
+                    </a>
+                    <a href="#about-meh">
+                        <li>About us</li>
+                    </a>
+                    <a href="#myform">
+                        <li>Contact me</li>
+                    </a>
+                </ul>
+            </div>
+       
+           
+          <div id="clock">
+
+          </div>
+        <h1 class="header">MD ATIQUR RAHMAN</h1>
+        <h3 class="small-header">WELCOME TO ATIQ WORLD</h3>
+        <div class="about-me">
+            <img class="my-pic" src="images\at.jpeg" alt="">
+            <h3 id="about-meh">My Name is MD ATIQUR RAHMAN . <br>
+                I am from shakarpur , Bharwara, Darbhanga Bihar.
+                <br>Now persuing Mtech from Rajasthan Technical university (RTu ).
+                <br>Currently living in jaipur. <br>
+                <br>Contact Details :--
+                <br> <img class="png" src="images\email.jpg" alt=""> Email<span> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;
+                </span>
+                <nbsp></nbsp> <a id="png-d" href="">atiqur.mdrahaman@gmail.com</a></span>
+                <br> <img class="png" src="images\insta.jpg" alt=""> instagram : <span>&nbsp;&nbsp;<a id="png-d"
+                        href="https://www.instagram.com/md__atiq/">md__atiq</a></span>
+                <br> <img class="png" src="images\linkedin.jpg" alt=""> Linkedin : <span>&nbsp;&nbsp;&nbsp; &nbsp; <a
+                        id="png-d" href="">mdatiq</a></span>
+                </h>
+
+
+
+                <div class="small-container">
+                    <div class="my-img" id="gallery">
+                        <img src="images\1.jpg" alt="">
+                        <img src="images\2.jpg" alt="">
+                        <img src="images\3.jpg" alt="">
+                        <img class="img-fit" src="images\5.jpg" alt="">
+
+
+
+                    </div>
+
+
+
+
+                </div>
+        </div>
+
+        <div class="form" id="myform">
+            <h2 class="form-header">Contact Form</h2>
+            <form action="">
+                <div class="form-attibute">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="First Name" name="name" id="meranaam">
+
+                </div>
+                
+                <div class="form-attibute">
+                    <label for="name">Phone No.</label>
+                    <input type="tel" placeholder="1234567890" name="phone" id="phone">
+
+                </div>
+                <div class="form-attibute">
+                    <label for="name">Email Add.</label>
+                    <input type="email" placeholder="abcd@gmail.com" name="email" id="email">
+
+                </div>
+                
+                
+                   <div id="msg">
+
+                   </div>
+                  </form>
+                  <input type="button" value="submit" id="btn">
+        </div>
+        
+        <fieldset>
+      <legend>
+        <h2> DATA from Storage</h2>
+      </legend>
+         <table  border="2px"  id="table">
+            <tr>
+                <td>Name</td>
+                <td>Phone</td>
+                <td>Phone</td>
+            </tr>
+         </table>
+        </fieldset>
+
+         
+ 
+  
+
+    <script >
+     //lets play with code
+     // adding clock to project
+       setInterval(clockupdate,1000);
+function clockupdate(){
+
+     let currentTime= new Date();
+     let currenHour = currentTime.getHours();
+     let currentMinutes = currentTime.getMinutes();
+     let currenSeconds = currentTime.getSeconds();
+      
+      currenHour =(currenHour<10 ? "0" : "")+ currenHour;
+      currentMinutes =(currentMinutes<10 ? "0" : "")+ currentMinutes;
+      currenSeconds =(currenSeconds<10 ? "0" : "")+ currenSeconds;
+
+     let TimeOfDay =(currentTime < 12)? "AM" : "PM";
+    
+    let currentTimeStr = currenHour + ":" + currentMinutes + ":" + currenSeconds + ":" + TimeOfDay;
+    document.getElementById("clock").innerHTML= currentTimeStr;
+}
+     
+     </script>
+
+     <script>
+
+    // adding event
+    let button = document.getElementById('btn');
+       button.addEventListener('click', submit);
+        //global variable
+
+        function submit(){
+
+          var dataEntered = retreieveData();
+        
+            var readData = readuingDataFromLocalStorage(dataEntered);
+              insert (readData);
+        }
+
+
+        function retreieveData(){
+            var fristName= document.getElementById("meranaam").value;
+            
+            var phoneNO= document.getElementById("phone").value;
+            var emailId= document.getElementById("email").value;
+
+            var fruits= [fristName,phoneNO,emailId];
+            return fruits;
+        }
+          function readuingDataFromLocalStorage(dataEntered){
+            var N = localStorage.setItem("NAME", dataEntered[0]);
+            var P = localStorage.setItem("phone", dataEntered[1]);
+            var E = localStorage.setItem("email", dataEntered[2]);
+
+
+            //getting values freom local to table
+            var N1=localStorage.getItem("NAME", N);
+            var p1=localStorage.getItem("phone", P); 
+            var E1 =localStorage.getItem("email", E);
+
+            var dataArr = [N1,p1,E1];
+            return dataArr;
+        }
+        // adding data to table
+          function insert(readData){
+
+          
+        var  insertRow =table.insertRow();
+      // insert cell
+      var Cell1 = row.insertCell(0);
+       var Cell2 = row.insertCell(1);
+       var Cell3 = row.insertCell(2);
+           cell2.innerHTML ="hii guys";
+          }
+     </script>
+         
+
+</body>
+
+</html>
